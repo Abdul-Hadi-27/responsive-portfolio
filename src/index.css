@@ -2201,8 +2201,12 @@ position: absolute;
   .number {
     position: absolute;
     /* left:50%; */
-    left: 0%;
-    top: 10%;
+    left:50%;
+    transform: translateX(-50%);
+    /* left: 10%; */
+    /* top: 0%; */
+
+    top: 50%;
 
     /* top: 50%; */
     color: #838383;
