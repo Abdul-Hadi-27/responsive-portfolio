@@ -7,11 +7,11 @@
 .container {
   min-height: 100vh;
   height: auto;
-  background-color: red;
+
   /* padding: 4rem 5rem; */
   width: 100%;
   background: linear-gradient(to top, #0b0f26, #143a7a);
-  position: relative;
+  /* position: relative; */
   /* margin: auto; */
   display: flex;
   /* align-items: center; */
@@ -20,8 +20,8 @@
   text-align: center;
   flex-direction: column;
 }
-.container h1 {
-  height: fit-content;
+ .container h1 {
+  /* height: 10vh; */
   font-size: 20vw;
   font-weight: 700;
   color: white;
@@ -30,12 +30,22 @@
 
   /* margin-top: 8rem; */
   /* position: absolute; */
+}  
+.heading {
+  position: relative;
+/* font-size: 8rem; */
+  /* background-color: red; */
+  height: fit-content;
 }
-.container .head {
+.heading .head {
   background-color: #143978;
   /* width: fit-content; */
+
   position: absolute;
-  top: 10%;
+  /* top: 10%; */
+  left: 50%;
+  transform: translateX(-50%);
+  top: 22%;
   letter-spacing: 2.5rem;
   color: white;
   font-weight: 400;
@@ -504,14 +514,34 @@
     font-size: 28vw;
     letter-spacing: 0.3rem;
   }
-  .container .head {
+  .heading {
+  position: relative;
+/* font-size: 8rem; */
+  /* background-color: red; */
+  height: fit-content;
+}
+.heading .head {
+  background-color: #143978;
+  /* width: fit-content; */
+
+  position: absolute;
+  /* top: 10%; */
+  left: 50%;
+  transform: translateX(-50%);
+  top: 22%;
+  letter-spacing: 1.8rem;
+  color: white;
+  font-weight: 400;
+  padding: 0.5rem 0.8rem;
+}
+  /* .heading .head {
     font-size: 1.5vw;
     padding: 0.2rem 0.5rem;
     /* position: fixed; */
-    top: 13%;
+    /* top: 13%; */
 
-    letter-spacing: 1.8rem;
-  }
+    /* letter-spacing: 1.8rem; */
+  /* } */
 
   .image {
     height: 100%;
@@ -975,32 +1005,53 @@
     text-align: center;
     /* flex-direction: column; */
   }
-  .container h1 {
-    height: fit-content;
+  /* .container h1 {
+    /* height: fit-content;
     font-size: 9rem;
 
     font-weight: 700;
-    color: white;
+    color: white; */
     /* text-align: center; */
-    letter-spacing: 0.2rem;
+    /* letter-spacing: 0.2rem; */
     /* position: relative; */
 
     /* margin-top: 8rem; */
     /* position: absolute; */
-  }
-  .container .head {
+  
+  .heading {
+  position: relative;
+  
+/* font-size: 8rem; */
+  /* background-color: red; */
+  height: fit-content;
+}
+.heading .head {
+  background-color: #143978;
+  /* width: fit-content; */
+
+  position: absolute;
+  /* top: 10%; */
+  left: 50%;
+  transform: translateX(-50%);
+  top: 22%;
+  letter-spacing: 1.2rem;
+  color: white;
+  font-weight: 400;
+  padding: 0.5rem 0.8rem;
+}
+   /* .head {
     background-color: #143978;
 
     /* width: fit-content; */
-    position: absolute;
-    top: 8%;
+    /* position: absolute; */
+    /* top: 8%; */
 
-    letter-spacing: 0.8rem;
+    /* letter-spacing: 0.8rem; */
     /* background-color: red; */
-    color: white;
+    /* color: white;
     font-weight: 400;
-    padding: rem 0.5rem;
-  }
+    padding: rem 0.5rem; */
+  /* } */
   .image {
     height: auto;
     width: 100%;
@@ -1515,19 +1566,40 @@
     /* margin-top: 8rem; */
     /* position: absolute; */
   }
-  .container .head {
+  /* .container .head {
     background-color: #143978;
 
     /* width: fit-content; */
-    position: absolute;
-    top: 8%;
+    /* position: absolute; */
+    /* top: 8%; */
 
-    letter-spacing: 0.8rem;
+    /* letter-spacing: 0.8rem; */
     /* background-color: red; */
-    color: white;
-    font-weight: 400;
-    padding: rem 0.5rem;
-  }
+    /* color: white; */
+    /* font-weight: 400; */
+    /* padding: rem 0.5rem; */
+  /* } */
+  .heading {
+  position: relative;
+/* font-size: 8rem; */
+  /* background-color: red; */
+  height: fit-content;
+}
+.heading .head {
+  background-color: #143978;
+  /* width: fit-content; */
+
+  position: absolute;
+  /* top: 10%; */
+  left: 48%;
+  transform: translateX(-50%);
+  top: 12%;
+  letter-spacing: .8rem;
+  color: white;
+  font-weight: 400;
+  font-size: .5rem;
+  padding: 0.4rem 0.8rem;
+}
   .image {
     height: auto;
     width: 100%;
@@ -1576,7 +1648,7 @@
     /* flex-direction: column; */
 
     align-items: center;
-    width: 40%;
+    width: 50%;
   }
   .arrow {
     /* margin-right: 20px; */
@@ -1584,7 +1656,7 @@
     text-align: left;
   }
   .text span {
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 300;
   }
   .lorem {
@@ -1672,13 +1744,13 @@
     /* left: 10%; */
     /* top: 0%; */
 
-    top: 10%;
+    top: 40%;
     color: #838383;
     opacity: 0.2;
     user-select: none;
   }
   .number h1 {
-    font-size: 28rem;
+    font-size: 18rem;
   }
 
   .wrap {
@@ -1829,7 +1901,7 @@
   }
   .chaos {
     width: 100%;
-    height: 95vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1912,7 +1984,7 @@
   }
 
   .footer {
-    height: 50vh;
+    height: 30vh;
     margin-top: 18rem;
     width: 100%;
     /* margin-top: 10rem; */
@@ -2030,6 +2102,7 @@
     text-align: center;
     /* flex-direction: column; */
   }
+
   .container h1 {
     height: fit-content;
     font-size: 7rem;
@@ -2037,24 +2110,34 @@
     font-weight: 700;
     color: white;
     /* text-align: center; */
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.3rem;
     /* position: relative; */
 
     /* margin-top: 8rem; */
     /* position: absolute; */
   }
-  .container .head {
+   .heading {
+  position: relative;
+/* font-size: 8rem; */
+  /* background-color: red; */
+  height: fit-content;
+}
+ 
+  .heading .head {
     background-color: #143978;
 
     /* width: fit-content; */
     position: absolute;
-    top: 7%;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
 
-    letter-spacing: 1rem;
+    letter-spacing: .6rem;
     /* background-color: red; */
     color: white;
     font-weight: 400;
-    padding: rem 0.5rem;
+    font-size: .4rem;
+    padding: rem .1rem;
   }
   .image {
     height: auto;
@@ -2550,12 +2633,18 @@
     font-size: 25vw;
     letter-spacing: 0.3rem;
   }
-  .container .head {
+  .heading {
+  position: relative;
+/* font-size: 8rem; */
+  /* background-color: red; */
+  height: fit-content;
+}
+  .heading .head {
     font-size: 1vw;
-
+position: absolute;
     /* padding: 0.2rem 0.2rem; */
     /* display: none; */
-    top: 6%;
+    top: 20%;
 
     letter-spacing: 0.6rem;
   }

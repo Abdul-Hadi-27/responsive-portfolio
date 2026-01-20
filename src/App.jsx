@@ -32,10 +32,13 @@ const App = () => {
   return (
     <>
       <div className="container">
-        <h1>AARON</h1>
-        <div className="head">
+       <div className="heading">
+         <h1>AARON</h1>
+          <div className="head">
           <p>STRICKER</p>
         </div>
+       </div>
+       
         <div className="image">
           <img src={aaron} alt="" className="img" />
         </div>
