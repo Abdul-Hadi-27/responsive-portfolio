@@ -1148,7 +1148,7 @@ position: absolute;
     /* left: 10%; */
     /* top: 0%; */
 
-    top: 50%;
+    top: 10%;
     /* top: 50%; */
     color: #838383;
     opacity: 0.2;
@@ -1672,11 +1672,12 @@ position: absolute;
   .number {
     position: absolute;
     left:50%;
+
     transform: translateX(-50%);
     /* left: 10%; */
     /* top: 0%; */
 
-    top: 50%;
+    top: 10%;
     color: #838383;
     opacity: 0.2;
     user-select: none;
@@ -2206,7 +2207,7 @@ position: absolute;
     /* left: 10%; */
     /* top: 0%; */
 
-    top: 50%;
+    top: 10%;
 
     /* top: 50%; */
     color: #838383;
@@ -2700,7 +2701,7 @@ position: absolute;
     /* left:50%; */
     /* left: 5%; */
 
-    top: 50%;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%);
     color: #838383;
