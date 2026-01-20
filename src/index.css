@@ -2688,16 +2688,19 @@ position: absolute;
   }
   .number {
     position: absolute;
-    /* left:50%; */
-    left: 5%;
 
-    top: 10%;
+    /* left:50%; */
+    /* left: 5%; */
+
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
     color: #838383;
     opacity: 0.2;
     user-select: none;
   }
   .number h1 {
-    font-size: 90vw;
+    font-size: 50vw;
   }
 
   .wrap {
